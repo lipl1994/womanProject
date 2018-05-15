@@ -1,0 +1,272 @@
+html{
+	width: 1920px;
+	height: 1080px;
+}
+body{
+	font-family: 'microsoft yahei', Arial;
+	overflow: hidden;
+	background:#02233a url(../images/bg.jpg) no-repeat
+}
+*{
+	margin: 0;
+	padding:0;
+}
+ul,li{
+	list-style: none;
+}
+i,em,span{
+	font-style: normal;
+	font-weight: 400;
+}
+[v-cloak]{display: none;}
+.fr{
+	float:right;
+}
+.fl{
+	float:left;
+}
+.header-container{
+	display: none;
+}
+.hide{
+	display: none;
+}
+
+.content{
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+}
+
+.sec-1{
+	box-sizing: border-box;
+	height:310px;
+	background: url(../images/bg-1.png) no-repeat center top;
+	padding-top:72px;
+}
+.sec-1 ul{
+	box-sizing: border-box;
+	float:left;
+	width:640px;
+	padding: 0 75px;
+}
+.sec-1 ul li{
+	width:490px;
+	height:45px;
+	margin: 18px 0;
+}
+.sec-1 ul li .ceil{
+	float:left;
+	height:45px;
+}
+.sec-1 ul li .ceil-1{
+	width:45px;
+	margin-right:13px;
+	line-height: 45px;
+	font-size: 18px;
+	text-align: center;
+	color: #c5e8ff;
+	background: url(../images/circle-1.png) no-repeat left center;
+}
+.sec-1 ul li .ceil-2{
+	width:315px;
+}
+.sec-1 ul li .ceil-2 .c-name{
+	height:30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #bcdaff;
+	text-align: left;
+	background: url(../images/text2.png) no-repeat 45px 15px;
+}
+.sec-1 ul li .ceil-2 .c-name.text3{
+	background: url(../images/text3.png) no-repeat 64px 15px;
+}
+.sec-1 ul li .ceil-2 .c-range{
+	box-sizing: border-box;
+	width:297px;
+	height:9px;
+	border:1px solid #2065ba;
+	position: relative;
+}
+.sec-1 ul li .ceil-2 .c-range i {
+	display: inline-block;
+	height:9px;
+	position: absolute;
+	left:-1px;
+	top:-1px;
+	background: #ff8670;
+}
+
+.sec-1 ul li .ceil-3{
+	width:110px;
+	background: url(../images/t-wrap.png) no-repeat center center;
+	line-height: 45px;
+	text-align: center;
+	font-size: 24px;
+	color: #e2efff;
+}
+
+.sec-2{
+	box-sizing: border-box;
+	height:675px;
+	padding-left:122px;
+	background: url(../images/bg-2.png);
+	position: relative;
+	overflow: hidden;
+}
+.sec-2 .ct{
+	box-sizing: border-box;
+	float:left;
+	width:635px;
+	height:675px;
+}
+.sec-2 .ct-title{
+	box-sizing: border-box;
+	height:92px;
+	padding:30px 68px 0px 65px;
+	font-size: 24px;
+	color: #0cc5fd;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin-bottom: 22px;
+}
+.sec-2 .ct-3 .ct-title{
+	padding:30px 54px 0px 79px;
+}
+
+.sec-2 .ct-li{
+	height:80px;
+	margin-bottom: 29px;
+	overflow: hidden;
+}
+.sec-2 .ct-li .ct-content{
+	box-sizing: border-box;
+	width:395px;
+	height:47px;
+	line-height: 47px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 20px;
+	color: #c5e8ff;
+	margin:0 15px;
+	text-align: right;
+}
+.sec-2 .ct-3 .ct-li .ct-content{
+	text-align: left;
+}
+.sec-2 .ct-li .ct-time{
+	font-size: 14px;
+	color: #7dbee7;
+	text-align: right;
+	margin:0 18px;
+}
+.sec-2 .ct-li .ct-source{
+	box-sizing: border-box;
+	height:80px;
+	width:80px;
+	margin:0 11px;
+	padding:21px 5px;
+	font-size: 16px;
+	color: #25fff7;
+	text-align: center;
+}
+.sec-2 .ct-li .ct-source span{
+	display: inline-block;
+	width:70px;
+	height:44px;
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.sec-2 .ct-li .ct-source span.oneline{
+	line-height: 33px;
+}
+.p-l-56{
+	padding-right:56px;
+}
+.p-l-96{
+	padding-right:87px;
+}
+
+.p-r-56{
+	padding-left:55px;
+}
+.p-r-96{
+	padding-left:84px;
+}
+
+.sec-2 .ct-2{
+	width:406px;
+}
+
+.sec-2 .ct-2 .wrap{
+	box-sizing: border-box;
+	width:406px;
+	height:220px;
+	position: relative;
+	top:265px;
+}
+.sec-2 .ct-2 .aside{
+	box-sizing: border-box;
+	width:106px;
+	height:220px;
+	padding-top:33px;
+}
+.sec-2 .ct-2 .aside p{
+	height: 107px;
+	font-size: 24px;
+	color: white;
+	text-align: center;
+	font-style: italic!important;
+}
+.sec-2 .ct-2 .aside p em{
+	font-size: 18px;
+	font-style: italic!important;
+}
+.sec-2 .ct-2 .aside p span{
+	font-size: 36px;
+	font-style: italic!important;
+}
+.sec-2 .ct-2 .aside.fl{
+	margin-left: -7px;
+}
+.sec-2 .roll{
+	position: absolute;
+	left:839px;
+	top:251px;
+	width:240px;
+	height:240px;
+	background: url(../images/roll.png) no-repeat center center;
+	-webkit-animation: roll 3s linear infinite;
+	animation: roll 3s linear infinite;
+}
+
+@-webkit-keyframes roll{
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+@keyframes roll{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes hidein{
+	from{opacity: 0;-webkit-transform: translateY(500px);}
+	to{opacity: 1;-webkit-transform: translateY(0px);}
+}
+@keyframes hidein{
+	from{opacity: 0;transform: translateY(500px);}
+	to{opacity: 1;transform: translateY(0px);}
+}
+.sec-1,.sec-2{opacity: 0;}
+.sec-1{
+	animation: hidein .8s 0s ease-in-out forwards;
+}
+.sec-2{
+	animation: hidein .8s .5s ease-in-out forwards;
+}
